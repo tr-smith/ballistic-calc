@@ -21,7 +21,7 @@ import java.util.ArrayList;
  */
 public class DBUtilities {
 
-    private final String URL = "jdbc:sqlite::resource:" + getClass().getClassLoader().getResource("resources/CartridgeData.db");
+    private final String URL = "jdbc:sqlite:C:\\projects\\ballistic-calc\\src\\main\\java\\resources\\CartridgeData.db";
     //private static final String URL = "jdbc:sqlite:C:\\Users\\RibitIII\\CartridgeData.db";
     private Cartridge cartridge = new Cartridge();
 
